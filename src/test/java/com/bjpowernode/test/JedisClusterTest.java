@@ -20,7 +20,7 @@ public class JedisClusterTest {
         nodes.add(new HostAndPort("192.168.170.128", 6383));
         nodes.add(new HostAndPort("192.168.170.128", 6384));
         nodes.add(new HostAndPort("192.168.170.128", 6385));
-
+        System.out.println("Hello World");
         jedisCluster = new JedisCluster(nodes);
     }
 
